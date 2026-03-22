@@ -1,6 +1,7 @@
 import mysql.connector as db
 
-'''def count(p_name,t_name,schema_name,in_count,out_count,inout_count):
+'''
+def count(p_name,t_name,schema_name,in_count,out_count,inout_count):
     with open('{}.txt'.format(schema_name),'a') as fp:
         fp.write('Table name:-{}\n'.format(t_name))
         fp.write('procedure name:-{}\n'.format(p_name))
