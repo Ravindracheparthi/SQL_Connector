@@ -1,1 +1,0 @@
-1|'Ravindra',2|'Indu',3|'Sukanya',4|'jyo',5|'neelu',6|'ashu',7|'teja',8|'kowshi',9|'khadar',10|'chandani',11|'sudha',12|'bhavani',13|'divya'
