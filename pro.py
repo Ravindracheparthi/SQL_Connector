@@ -1,5 +1,7 @@
 import mysql.connector as db
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
 '''
 def count(p_name,t_name,schema_name,in_count,out_count,inout_count):
     with open('{}.txt'.format(schema_name),'a') as fp:
@@ -121,7 +123,8 @@ def procedure():
                 print('Database not exist')
                 return False
 try:
-    con=db.connect(username='root',password='ravindra@123Ravi',host='localhost')
+    
+    con = db.connect(username='root', password=os.environ.get('DB_PASSWORD'), host='localhost')  
     cur=con.cursor()
     #print('DB connection open')
     #print('1.create procedure \t\t2.Table Creation/Deletion\n3.Show Table list\t\t4.Data Insert\n5.schema creation\t6.Show Table Data\n7.Import files\t\t8.call Procedure\n9.exit')
