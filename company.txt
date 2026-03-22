@@ -1,0 +1,24 @@
+Table name:-employee_details
+procedure name:-e_sal
+in count:-1
+out count:-0
+inout count:-0
+
+Table name:-employee_details
+procedure name:-kasdhf
+in count:-1
+out count:-0
+inout count:-0
+
+Table name:-employee_details
+procedure name:-jagfdf
+in count:-1
+out count:-0
+inout count:-0
+
+Table name:-employee_details
+procedure name:-cname
+in count:-1
+out count:-1
+inout count:-0
+
