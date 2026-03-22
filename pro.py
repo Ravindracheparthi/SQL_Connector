@@ -1,13 +1,13 @@
 import mysql.connector as db
 
-def count(p_name,t_name,schema_name,in_count,out_count,inout_count):
+'''def count(p_name,t_name,schema_name,in_count,out_count,inout_count):
     with open('{}.txt'.format(schema_name),'a') as fp:
         fp.write('Table name:-{}\n'.format(t_name))
         fp.write('procedure name:-{}\n'.format(p_name))
         fp.write('in count:-{}\n'.format(in_count))
         fp.write('out count:-{}\n'.format(out_count))
         fp.write('inout count:-{}\n\n'.format(inout_count))
-
+'''
 
 def schema():
         schema_name=input('enter schema name to use:')   #using schema
